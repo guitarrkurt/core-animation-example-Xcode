@@ -14,6 +14,8 @@
 		B8341FB81AEC8A6C0096AB50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8341FB71AEC8A6C0096AB50 /* Images.xcassets */; };
 		B8341FBB1AEC8A6C0096AB50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8341FB91AEC8A6C0096AB50 /* LaunchScreen.xib */; };
 		B8341FC71AEC8A6C0096AB50 /* CoreAnimationEjemploTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8341FC61AEC8A6C0096AB50 /* CoreAnimationEjemploTests.m */; };
+		B8341FD11AEC8AFD0096AB50 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B8341FD01AEC8AFD0096AB50 /* ball.png */; };
+		B8341FD31AED08B80096AB50 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8341FD21AED08B80096AB50 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		B8341FC01AEC8A6C0096AB50 /* CoreAnimationEjemploTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationEjemploTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8341FC51AEC8A6C0096AB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8341FC61AEC8A6C0096AB50 /* CoreAnimationEjemploTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationEjemploTests.m; sourceTree = "<group>"; };
+		B8341FD01AEC8AFD0096AB50 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		B8341FD21AED08B80096AB50 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8341FD31AED08B80096AB50 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		B8341F9E1AEC8A6B0096AB50 = {
 			isa = PBXGroup;
 			children = (
+				B8341FD21AED08B80096AB50 /* QuartzCore.framework */,
 				B8341FA91AEC8A6C0096AB50 /* CoreAnimationEjemplo */,
 				B8341FC31AEC8A6C0096AB50 /* CoreAnimationEjemploTests */,
 				B8341FA81AEC8A6C0096AB50 /* Products */,
@@ -96,6 +102,7 @@
 		B8341FAA1AEC8A6C0096AB50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8341FD01AEC8AFD0096AB50 /* ball.png */,
 				B8341FAB1AEC8A6C0096AB50 /* Info.plist */,
 				B8341FAC1AEC8A6C0096AB50 /* main.m */,
 			);
@@ -200,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8341FB61AEC8A6C0096AB50 /* Main.storyboard in Resources */,
+				B8341FD11AEC8AFD0096AB50 /* ball.png in Resources */,
 				B8341FBB1AEC8A6C0096AB50 /* LaunchScreen.xib in Resources */,
 				B8341FB81AEC8A6C0096AB50 /* Images.xcassets in Resources */,
 			);
